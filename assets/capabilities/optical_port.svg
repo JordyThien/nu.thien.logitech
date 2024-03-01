@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960px" height="960px" viewBox="0 0 960 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>assets / capabilities / optical_port</title>
+    <g id="assets-/-capabilities-/-optical_port" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M783,153 L782.999417,358 L791,358 C850.646753,358 899,406.353247 899,466 C899,525.646753 850.646753,574 791,574 L782.999417,574 L783,699.330909 L635.222974,843 L324.23737,843 L177,699.330909 L176.999417,574 L170,574 C110.353247,574 62,525.646753 62,466 C62,406.353247 110.353247,358 170,358 L176.999417,358 L177,153 L783,153 Z" id="Combined-Shape" stroke="#000000" stroke-width="60"></path>
+        <rect id="Rectangle" stroke="#000000" stroke-width="30" x="300.52649" y="305.817881" width="356.423841" height="356.423841"></rect>
+        <circle id="Oval" stroke="#000000" stroke-width="30" cx="478.738411" cy="484.029801" r="135.104895"></circle>
+    </g>
+</svg>

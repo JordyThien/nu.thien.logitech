@@ -1,0 +1,9 @@
+{
+  "type": "boolean",
+  "title": { "en": "Input 5" },
+  "getable": false,
+  "setable": true,
+  "uiComponent": "button",
+  "uiQuickAction": true,
+  "icon": "/assets/capabilities/coaxial.svg"
+}

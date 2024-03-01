@@ -1,0 +1,9 @@
+{
+  "type": "boolean",
+  "title": { "en": "Input 4" },
+  "getable": false,
+  "setable": true,
+  "uiComponent": "button",
+  "uiQuickAction": true,
+  "icon": "/assets/capabilities/optical_port.svg"
+}

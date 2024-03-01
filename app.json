@@ -1,0 +1,242 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "nu.thien.logitech",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "brandColor": "#21C0FC",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Logitech Z906"
+  },
+  "description": {
+    "en": "Simplify audio, enhance your journey",
+    "nl": "Vereenvoudig audio, verbeter de reis",
+    "de": "Vereinfachen Sie Audio, verbessern Sie die Reise",
+    "fr": "Simplifiez l'audio, améliorez votre parcours",
+    "it": "Semplifica l'audio, migliora il percorso",
+    "sv": "Förenkla ljud, förbättra resan",
+    "no": "Forenkle lyden, forbedre reisen",
+    "es": "Simplifica el audio, mejora el viaje",
+    "da": "Forenkling af lyd, forbedring af rejse",
+    "ru": "Упростите звук, улучшите путешествие",
+    "pl": "Uprość dźwięk, ulepsz podróż."
+  },
+  "category": [
+    "music"
+  ],
+  "permissions": [
+    "homey:wireless:ir"
+  ],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Jordy Thien",
+    "email": "homey+z906@thien.nu"
+  },
+  "support": "mailto:homey+z906@thien.nu",
+  "bug": {
+    "url": "https://github.com/JordyThien/nu.thien.logitech/issues"
+  },
+  "source": "https://github.com/JordyThien/nu.thien.logitech",
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "jordythien"
+      }
+    }
+  },
+  "drivers": [
+    {
+      "name": {
+        "en": "Logitech Z906"
+      },
+      "class": "remote",
+      "capabilities": [
+        "onoff",
+        "volume_down",
+        "volume_up",
+        "volume_mute",
+        "effect",
+        "input",
+        "input_1",
+        "input_2",
+        "input_3",
+        "input_4",
+        "input_5",
+        "input_aux"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "infrared"
+      ],
+      "images": {
+        "small": "/drivers/z906/assets/images/small.png",
+        "large": "/drivers/z906/assets/images/large.png",
+        "xlarge": "/drivers/z906/assets/images/xlarge.png"
+      },
+      "infrared": {
+        "satelliteMode": true
+      },
+      "pair": [
+        {
+          "id": "rf_ir_remote_learn",
+          "navigation": {
+            "next": "rf_ir_remote_add"
+          },
+          "options": {
+            "title": {
+              "en": "Connect your Logitech Z906",
+              "nl": "Koppel je Logitech Z906",
+              "de": "Verbinde dein Logitech Z906",
+              "fr": "Connectez votre Logitech Z906",
+              "it": "Collega il tuo Logitech Z906",
+              "sv": "Anslut din Logitech Z906",
+              "no": "Koble til din Logitech Z906",
+              "es": "Conecta tu Logitech Z906",
+              "da": "Tilslut din Logitech Z906",
+              "ru": "Подключите ваш Logitech Z906",
+              "pl": "Podłącz swój Logitech Z906"
+            },
+            "instruction": {
+              "en": "Press continue to connect your device.",
+              "nl": "Druk op volgende om je apparaat te koppelen.",
+              "de": "Drücken Sie auf Weiter, um Ihr Gerät zu verbinden.",
+              "fr": "Appuyez sur suivant pour connecter votre appareil.",
+              "it": "Premi Avanti per collegare il tuo dispositivo.",
+              "sv": "Tryck på nästa för att ansluta din enhet.",
+              "no": "Trykk på neste for å koble til enheten din.",
+              "es": "Presiona siguiente para conectar tu dispositivo.",
+              "da": "Tryk på næste for at tilslutte din enhed.",
+              "ru": "Нажмите Далее, чтобы подключить ваше устройство.",
+              "pl": "Naciśnij Dalej, aby połączyć swoje urządzenie."
+            }
+          }
+        },
+        {
+          "id": "rf_ir_remote_add"
+        }
+      ],
+      "id": "z906"
+    }
+  ],
+  "capabilities": {
+    "effect": {
+      "type": "boolean",
+      "title": {
+        "en": "Effect"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/change.svg"
+    },
+    "input": {
+      "type": "boolean",
+      "title": {
+        "en": "Input"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/change.svg"
+    },
+    "input_1": {
+      "type": "boolean",
+      "title": {
+        "en": "Input 1"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/computer.svg"
+    },
+    "input_2": {
+      "type": "boolean",
+      "title": {
+        "en": "Input 2"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/stereo.svg"
+    },
+    "input_3": {
+      "type": "boolean",
+      "title": {
+        "en": "Input 3"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/optical_port.svg"
+    },
+    "input_4": {
+      "type": "boolean",
+      "title": {
+        "en": "Input 4"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/optical_port.svg"
+    },
+    "input_5": {
+      "type": "boolean",
+      "title": {
+        "en": "Input 5"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/coaxial.svg"
+    },
+    "input_aux": {
+      "type": "boolean",
+      "title": {
+        "en": "Aux"
+      },
+      "getable": false,
+      "setable": true,
+      "uiComponent": "button",
+      "uiQuickAction": true,
+      "icon": "/assets/capabilities/aux_port.svg"
+    }
+  },
+  "signals": {
+    "ir": {
+      "z906_prontohex": {
+        "type": "prontohex",
+        "repetitions": 1,
+        "cmds": {
+          "onoff": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0015 0014 0016 0702 0155 0052 0016 0E39",
+          "volume_up": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0016 0702 0155 0052 0016 0E39",
+          "volume_down": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 003D 0016 0702 0155 0052 0016 0E39",
+          "volume_mute": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0016 0702 0155 0052 0016 0E39",
+          "input": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 003D 0015 003D 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0016 0702 0155 0052 0016 0E39",
+          "effect": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 003D 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0016 0702 0155 0052 0016 0E39",
+          "input_1": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 003D 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0016 0702 0155 0052 0016 0E39",
+          "input_2": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 003D 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0015 0014 0016 0702 0155 0052 0016 0E39",
+          "input_3": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 003D 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 003D 0015 0014 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0016 0702 0155 0052 0016 0E39",
+          "input_4": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 003D 0015 003D 0015 0014 0015 0014 0015 0014 0015 003D 0015 003D 0015 003D 0015 0014 0015 0014 0015 003D 0015 003D 0015 003D 0015 0014 0016 0702 0155 0052 0016 0E39",
+          "input_5": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0015 003D 0016 0702 0155 0052 0016 0E39",
+          "input_aux": "0000 006D 0022 0002 0155 00A7 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 0014 0015 0014 0015 0014 0015 003D 0015 0014 0015 003D 0015 0014 0015 003D 0015 003D 0015 003D 0015 003D 0015 0014 0015 003D 0016 0702 0155 0052 0016 0E39"
+        }
+      }
+    }
+  }
+}

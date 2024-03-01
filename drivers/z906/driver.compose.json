@@ -1,0 +1,73 @@
+{
+  "name": {
+    "en": "Logitech Z906"
+  },
+  "class": "remote",
+  "capabilities": [
+    "onoff",
+    "volume_down",
+    "volume_up",
+    "volume_mute",
+    "effect",
+    "input",
+    "input_1",
+    "input_2",
+    "input_3",
+    "input_4",
+    "input_5",
+    "input_aux"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "infrared"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "infrared": {
+    "satelliteMode": true
+  },
+  "pair": [
+    {
+      "id": "rf_ir_remote_learn",
+      "navigation": {
+        "next": "rf_ir_remote_add"
+      },
+      "options": {
+        "title": {
+          "en": "Connect your Logitech Z906",
+          "nl": "Koppel je Logitech Z906",
+          "de": "Verbinde dein Logitech Z906",
+          "fr": "Connectez votre Logitech Z906",
+          "it": "Collega il tuo Logitech Z906",
+          "sv": "Anslut din Logitech Z906",
+          "no": "Koble til din Logitech Z906",
+          "es": "Conecta tu Logitech Z906",
+          "da": "Tilslut din Logitech Z906",
+          "ru": "Подключите ваш Logitech Z906",
+          "pl": "Podłącz swój Logitech Z906"
+        },
+        "instruction": {
+          "en": "Press continue to connect your device.",
+          "nl": "Druk op volgende om je apparaat te koppelen.",
+          "de": "Drücken Sie auf Weiter, um Ihr Gerät zu verbinden.",
+          "fr": "Appuyez sur suivant pour connecter votre appareil.",
+          "it": "Premi Avanti per collegare il tuo dispositivo.",
+          "sv": "Tryck på nästa för att ansluta din enhet.",
+          "no": "Trykk på neste for å koble til enheten din.",
+          "es": "Presiona siguiente para conectar tu dispositivo.",
+          "da": "Tryk på næste for at tilslutte din enhed.",
+          "ru": "Нажмите Далее, чтобы подключить ваше устройство.",
+          "pl": "Naciśnij Dalej, aby połączyć swoje urządzenie."
+        }
+      }
+    },
+    {
+      "id": "rf_ir_remote_add"
+    }
+  ]
+}

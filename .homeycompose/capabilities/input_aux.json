@@ -1,0 +1,9 @@
+{
+  "type": "boolean",
+  "title": { "en": "Aux" },
+  "getable": false,
+  "setable": true,
+  "uiComponent": "button",
+  "uiQuickAction": true,
+  "icon": "/assets/capabilities/aux_port.svg"
+}

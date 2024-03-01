@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960px" height="960px" viewBox="0 0 960 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>assets / capabilities / aux_port</title>
+    <g id="assets-/-capabilities-/-aux_port" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <rect id="Rectangle" stroke="#000000" stroke-width="60" x="428.542102" y="854.929197" width="102.440321" height="129.944677"></rect>
+        <polygon id="Rectangle" stroke="#000000" stroke-width="60" points="460.901154 30.8738739 497.525688 30.8738739 540.047938 77.5651948 540.047938 122.179521 521.916908 133.087566 540.047938 143.757141 540.047938 260.231406 540.047938 489.588938 419.476587 489.588938 419.476587 143.757141 437.607617 133.087566 419.476587 122.179521 419.476587 77.5651948"></polygon>
+        <path d="M415.747284,489.588938 L543.777241,489.588938 C559.241214,489.588938 571.777241,502.124965 571.777241,517.588938 L571.777241,771.801175 C571.777241,817.640809 534.616875,854.801175 488.777241,854.801175 L470.747284,854.801175 C424.90765,854.801175 387.747284,817.640809 387.747284,771.801175 L387.747284,517.588938 C387.747284,502.124965 400.283311,489.588938 415.747284,489.588938 Z" id="Rectangle" stroke="#000000" stroke-width="60"></path>
+        <line x1="430.58373" y1="133.322629" x2="529.79166" y2="133.322629" id="Path-3" stroke="#000000" stroke-width="30"></line>
+        <line x1="430.58373" y1="210.379507" x2="529.79166" y2="210.379507" id="Path-3" stroke="#000000" stroke-width="30"></line>
+    </g>
+</svg>

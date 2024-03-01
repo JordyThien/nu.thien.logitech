@@ -1,0 +1,9 @@
+{
+  "type": "boolean",
+  "title": { "en": "Input 1" },
+  "getable": false,
+  "setable": true,
+  "uiComponent": "button",
+  "uiQuickAction": true,
+  "icon": "/assets/capabilities/computer.svg"
+}

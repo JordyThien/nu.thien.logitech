@@ -1,0 +1,53 @@
+{
+  "id": "nu.thien.logitech",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "brandColor": "#21C0FC",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Logitech Z906"
+  },
+  "description": {
+    "en": "Simplify audio, enhance your journey",
+    "nl": "Vereenvoudig audio, verbeter de reis",
+    "de": "Vereinfachen Sie Audio, verbessern Sie die Reise",
+    "fr": "Simplifiez l'audio, améliorez votre parcours",
+    "it": "Semplifica l'audio, migliora il percorso",
+    "sv": "Förenkla ljud, förbättra resan",
+    "no": "Forenkle lyden, forbedre reisen",
+    "es": "Simplifica el audio, mejora el viaje",
+    "da": "Forenkling af lyd, forbedring af rejse",
+    "ru": "Упростите звук, улучшите путешествие",
+    "pl": "Uprość dźwięk, ulepsz podróż."
+  },
+  "category": [
+    "music"
+  ],
+  "permissions": [
+    "homey:wireless:ir"
+  ],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Jordy Thien",
+    "email": "homey+z906@thien.nu"
+  },
+  "support": "mailto:homey+z906@thien.nu",
+  "bug": {
+    "url": "https://github.com/JordyThien/nu.thien.logitech/issues"
+  },
+  "source": "https://github.com/JordyThien/nu.thien.logitech",
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "jordythien"
+      }
+    }
+  }
+}
