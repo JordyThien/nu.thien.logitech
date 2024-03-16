@@ -6,4 +6,7 @@ With just a few taps on your Homey app, you can conveniently adjust volume level
 
 Upgrade your Homey setup effortlessly and bring your Logitech Z906 sound system under your control. Transform your space into an immersive audio haven with the Logitech Z906 Sound System App for Homey – where ease meets excellence.
 
-# 
+# Credits
+
+[Ivo Derksen](https://github.com/IvoDerksen/com.logitech.soundsystems) for the inspiration as he created the Homey App for the Z-5500  
+[IrScrutinizer](http://www.harctoolbox.org/IrScrutinizer.html) To be able to find the correct IR commands for the Z906

@@ -1,5 +1,8 @@
 {
   "1.0.0": {
     "en": " Introducing the Logitech Z906 Sound System App for Homey"
+  },
+  "1.0.1": {
+    "en": "Updated app icon and image"
   }
 }
