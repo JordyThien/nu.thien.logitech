@@ -4,5 +4,8 @@
   },
   "1.0.1": {
     "en": "Updated app icon and image"
+  },
+  "1.1.0": {
+    "en": "Added send command flow"
   }
 }
