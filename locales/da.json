@@ -1,0 +1,16 @@
+{
+  "commands": {
+    "onoff": "Tænd/Sluk",
+    "volume_up": "Lyt op",
+    "volume_down": "Lyt ned",
+    "volume_mute": "Lyd slukket",
+    "effect": "Skift effekt",
+    "input": "Skift indgang",
+    "input_1": "Computerindgang 1",
+    "input_2": "Stereoinngang 2",
+    "input_3": "Optisk indgang 3",
+    "input_4": "Optisk indgang 4",
+    "input_5": "Coaxial indgang 5",
+    "input_aux": "Aux-indgang"
+  }
+}

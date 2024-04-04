@@ -1,0 +1,16 @@
+{
+  "commands": {
+    "onoff": "Allumer/Éteindre",
+    "volume_up": "Augmenter le volume",
+    "volume_down": "Baisser le volume",
+    "volume_mute": "Muet",
+    "effect": "Changer l'effet",
+    "input": "Changer l'entrée",
+    "input_1": "Entrée ordinateur 1",
+    "input_2": "Entrée stéréo 2",
+    "input_3": "Entrée optique 3",
+    "input_4": "Entrée optique 4",
+    "input_5": "Entrée coaxiale 5",
+    "input_aux": "Entrée aux"
+  }
+}

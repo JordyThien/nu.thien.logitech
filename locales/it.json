@@ -1,0 +1,16 @@
+{
+  "commands": {
+    "onoff": "Accensione/spegnimento",
+    "volume_up": "Aumenta volume",
+    "volume_down": "Abbassa volume",
+    "volume_mute": "Volume muto",
+    "effect": "Cambia effetto",
+    "input": "Cambia ingresso",
+    "input_1": "Ingresso computer 1",
+    "input_2": "Ingresso stereo 2",
+    "input_3": "Ingresso ottico 3",
+    "input_4": "Ingresso ottico 4",
+    "input_5": "Ingresso coassiale 5",
+    "input_aux": "Ingresso ausiliario"
+  }
+}

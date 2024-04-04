@@ -1,0 +1,16 @@
+{
+  "commands": {
+    "onoff": "Aan/uit",
+    "volume_up": "Volume omhoog",
+    "volume_down": "Volume omlaag",
+    "volume_mute": "Geluid dempen",
+    "effect": "Effect wijzigen",
+    "input": "Invoer wijzigen",
+    "input_1": "Computerinvoer 1",
+    "input_2": "Stereo-invoer 2",
+    "input_3": "Optische invoer 3",
+    "input_4": "Optische invoer 4",
+    "input_5": "Coaxiale invoer 5",
+    "input_aux": "Aux-invoer"
+  }
+}

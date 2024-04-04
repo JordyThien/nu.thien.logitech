@@ -1,1 +1,16 @@
-{}
+{
+  "commands": {
+    "onoff": "Power on/off",
+    "volume_up": "Volume up",
+    "volume_down": "Volume down",
+    "volume_mute": "Volume mute",
+    "effect": "Change effect",
+    "input": "Change input",
+    "input_1": "Computer input 1",
+    "input_2": "Stereo input 2",
+    "input_3": "Optical input 3",
+    "input_4": "Optical input 4",
+    "input_5": "Coaxial input 5",
+    "input_aux": "Aux input"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "commands": {
+    "onoff": "Włącz/Wyłącz",
+    "volume_up": "Zwiększ głośność",
+    "volume_down": "Zmniejsz głośność",
+    "volume_mute": "Wycisz dźwięk",
+    "effect": "Zmień efekt",
+    "input": "Zmień wejście",
+    "input_1": "Wejście komputera 1",
+    "input_2": "Wejście stereo 2",
+    "input_3": "Wejście optyczne 3",
+    "input_4": "Wejście optyczne 4",
+    "input_5": "Wejście koaksjalne 5",
+    "input_aux": "Wejście aux"
+  }
+}

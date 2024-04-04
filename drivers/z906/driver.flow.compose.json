@@ -1,0 +1,52 @@
+{
+  "actions": [
+    {
+      "id": "{{driverId}}:send_cmd",
+      "title": {
+        "en": "Send Command",
+        "nl": "Verzend Commando",
+        "de": "Befehl senden",
+        "fr": "Envoyer une commande",
+        "it": "Invia Comando",
+        "sv": "Skicka Kommando",
+        "no": "Send Kommando",
+        "es": "Enviar Comando",
+        "da": "Send Kommando",
+        "ru": "Отправить команду",
+        "pl": "Wyślij polecenie"
+      },
+      "titleFormatted": {
+        "en": "Send command [[cmd]]",
+        "nl": "Verzend commando [[cmd]]",
+        "de": "Befehl senden [[cmd]]",
+        "fr": "Envoyer la commande [[cmd]]",
+        "it": "Invia comando [[cmd]]",
+        "sv": "Skicka kommando [[cmd]]",
+        "no": "Send kommando [[cmd]]",
+        "es": "Enviar comando [[cmd]]",
+        "da": "Send kommando [[cmd]]",
+        "ru": "Отправить команду [[cmd]]",
+        "pl": "Wyślij polecenie [[cmd]]"
+      },
+      "args": [
+        {
+          "title": {
+            "en": "Button",
+            "nl": "Knop",
+            "de": "Taste",
+            "fr": "Bouton",
+            "it": "Pulsante",
+            "sv": "Knapp",
+            "no": "Knapp",
+            "es": "Botón",
+            "da": "Knap",
+            "ru": "Кнопка",
+            "pl": "Przycisk"
+          },
+          "name": "cmd",
+          "type": "autocomplete"
+        }
+      ]
+    }
+  ]
+}

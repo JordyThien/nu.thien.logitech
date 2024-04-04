@@ -1,0 +1,16 @@
+{
+  "commands": {
+    "onoff": "Ein/Aus",
+    "volume_up": "Lautstärke erhöhen",
+    "volume_down": "Lautstärke verringern",
+    "volume_mute": "Lautlos",
+    "effect": "Effekt ändern",
+    "input": "Eingang ändern",
+    "input_1": "Computer-Eingang 1",
+    "input_2": "Stereo-Eingang 2",
+    "input_3": "Optischer Eingang 3",
+    "input_4": "Optischer Eingang 4",
+    "input_5": "Koaxialer Eingang 5",
+    "input_aux": "Aux-Eingang"
+  }
+}

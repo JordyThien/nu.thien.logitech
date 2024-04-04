@@ -1,0 +1,16 @@
+{
+  "commands": {
+    "onoff": "På/Av",
+    "volume_up": "Øk volumet",
+    "volume_down": "Senk volumet",
+    "volume_mute": "Lyd av",
+    "effect": "Endre effekt",
+    "input": "Endre inngang",
+    "input_1": "Datamaskin inngang 1",
+    "input_2": "Stereo inngang 2",
+    "input_3": "Optisk inngang 3",
+    "input_4": "Optisk inngang 4",
+    "input_5": "Koaksial inngang 5",
+    "input_aux": "Aux inngang"
+  }
+}
