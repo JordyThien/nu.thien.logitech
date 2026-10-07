@@ -1,6 +1,18 @@
 {
   "type": "boolean",
-  "title": { "en": "Input 3" },
+  "title": {
+    "en": "Input 3",
+    "nl": "Invoer 3",
+    "de": "Eingang 3",
+    "fr": "Entrée 3",
+    "it": "Ingresso 3",
+    "sv": "Ingång 3",
+    "no": "Inngang 3",
+    "es": "Entrada 3",
+    "da": "Indgang 3",
+    "ru": "Вход 3",
+    "pl": "Wejście 3"
+  },
   "getable": false,
   "setable": true,
   "uiComponent": "button",

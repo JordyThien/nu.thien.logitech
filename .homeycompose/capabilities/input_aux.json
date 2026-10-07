@@ -1,6 +1,18 @@
 {
   "type": "boolean",
-  "title": { "en": "Aux" },
+  "title": {
+    "en": "Aux",
+    "nl": "Aux",
+    "de": "Aux",
+    "fr": "Aux",
+    "it": "Aux",
+    "sv": "Aux",
+    "no": "Aux",
+    "es": "Aux",
+    "da": "Aux",
+    "ru": "Aux",
+    "pl": "Aux"
+  },
   "getable": false,
   "setable": true,
   "uiComponent": "button",

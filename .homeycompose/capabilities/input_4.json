@@ -1,6 +1,18 @@
 {
   "type": "boolean",
-  "title": { "en": "Input 4" },
+  "title": {
+    "en": "Input 4",
+    "nl": "Invoer 4",
+    "de": "Eingang 4",
+    "fr": "Entrée 4",
+    "it": "Ingresso 4",
+    "sv": "Ingång 4",
+    "no": "Inngang 4",
+    "es": "Entrada 4",
+    "da": "Indgang 4",
+    "ru": "Вход 4",
+    "pl": "Wejście 4"
+  },
   "getable": false,
   "setable": true,
   "uiComponent": "button",

@@ -1,6 +1,18 @@
 {
   "type": "boolean",
-  "title": { "en": "Input 5" },
+  "title": {
+    "en": "Input 5",
+    "nl": "Invoer 5",
+    "de": "Eingang 5",
+    "fr": "Entrée 5",
+    "it": "Ingresso 5",
+    "sv": "Ingång 5",
+    "no": "Inngang 5",
+    "es": "Entrada 5",
+    "da": "Indgang 5",
+    "ru": "Вход 5",
+    "pl": "Wejście 5"
+  },
   "getable": false,
   "setable": true,
   "uiComponent": "button",

@@ -188,7 +188,17 @@
     "effect": {
       "type": "boolean",
       "title": {
-        "en": "Effect"
+        "en": "Effect",
+        "nl": "Effect",
+        "de": "Effekt",
+        "fr": "Effet",
+        "it": "Effetto",
+        "sv": "Effekt",
+        "no": "Effekt",
+        "es": "Efecto",
+        "da": "Effekt",
+        "ru": "Эффект",
+        "pl": "Efekt"
       },
       "getable": false,
       "setable": true,
@@ -199,7 +209,17 @@
     "input": {
       "type": "boolean",
       "title": {
-        "en": "Input"
+        "en": "Input",
+        "nl": "Invoer",
+        "de": "Eingang",
+        "fr": "Entrée",
+        "it": "Ingresso",
+        "sv": "Ingång",
+        "no": "Inngang",
+        "es": "Entrada",
+        "da": "Indgang",
+        "ru": "Вход",
+        "pl": "Wejście"
       },
       "getable": false,
       "setable": true,
@@ -210,7 +230,17 @@
     "input_1": {
       "type": "boolean",
       "title": {
-        "en": "Input 1"
+        "en": "Input 1",
+        "nl": "Invoer 1",
+        "de": "Eingang 1",
+        "fr": "Entrée 1",
+        "it": "Ingresso 1",
+        "sv": "Ingång 1",
+        "no": "Inngang 1",
+        "es": "Entrada 1",
+        "da": "Indgang 1",
+        "ru": "Вход 1",
+        "pl": "Wejście 1"
       },
       "getable": false,
       "setable": true,
@@ -221,7 +251,17 @@
     "input_2": {
       "type": "boolean",
       "title": {
-        "en": "Input 2"
+        "en": "Input 2",
+        "nl": "Invoer 2",
+        "de": "Eingang 2",
+        "fr": "Entrée 2",
+        "it": "Ingresso 2",
+        "sv": "Ingång 2",
+        "no": "Inngang 2",
+        "es": "Entrada 2",
+        "da": "Indgang 2",
+        "ru": "Вход 2",
+        "pl": "Wejście 2"
       },
       "getable": false,
       "setable": true,
@@ -232,7 +272,17 @@
     "input_3": {
       "type": "boolean",
       "title": {
-        "en": "Input 3"
+        "en": "Input 3",
+        "nl": "Invoer 3",
+        "de": "Eingang 3",
+        "fr": "Entrée 3",
+        "it": "Ingresso 3",
+        "sv": "Ingång 3",
+        "no": "Inngang 3",
+        "es": "Entrada 3",
+        "da": "Indgang 3",
+        "ru": "Вход 3",
+        "pl": "Wejście 3"
       },
       "getable": false,
       "setable": true,
@@ -243,7 +293,17 @@
     "input_4": {
       "type": "boolean",
       "title": {
-        "en": "Input 4"
+        "en": "Input 4",
+        "nl": "Invoer 4",
+        "de": "Eingang 4",
+        "fr": "Entrée 4",
+        "it": "Ingresso 4",
+        "sv": "Ingång 4",
+        "no": "Inngang 4",
+        "es": "Entrada 4",
+        "da": "Indgang 4",
+        "ru": "Вход 4",
+        "pl": "Wejście 4"
       },
       "getable": false,
       "setable": true,
@@ -254,7 +314,17 @@
     "input_5": {
       "type": "boolean",
       "title": {
-        "en": "Input 5"
+        "en": "Input 5",
+        "nl": "Invoer 5",
+        "de": "Eingang 5",
+        "fr": "Entrée 5",
+        "it": "Ingresso 5",
+        "sv": "Ingång 5",
+        "no": "Inngang 5",
+        "es": "Entrada 5",
+        "da": "Indgang 5",
+        "ru": "Вход 5",
+        "pl": "Wejście 5"
       },
       "getable": false,
       "setable": true,
@@ -265,7 +335,17 @@
     "input_aux": {
       "type": "boolean",
       "title": {
-        "en": "Aux"
+        "en": "Aux",
+        "nl": "Aux",
+        "de": "Aux",
+        "fr": "Aux",
+        "it": "Aux",
+        "sv": "Aux",
+        "no": "Aux",
+        "es": "Aux",
+        "da": "Aux",
+        "ru": "Aux",
+        "pl": "Aux"
       },
       "getable": false,
       "setable": true,

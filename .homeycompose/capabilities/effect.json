@@ -1,6 +1,18 @@
 {
   "type": "boolean",
-  "title": { "en": "Effect" },
+  "title": {
+    "en": "Effect",
+    "nl": "Effect",
+    "de": "Effekt",
+    "fr": "Effet",
+    "it": "Effetto",
+    "sv": "Effekt",
+    "no": "Effekt",
+    "es": "Efecto",
+    "da": "Effekt",
+    "ru": "Эффект",
+    "pl": "Efekt"
+  },
   "getable": false,
   "setable": true,
   "uiComponent": "button",
