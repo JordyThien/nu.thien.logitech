@@ -1,5 +1,6 @@
 'use strict';
 
+import Homey = require('homey');
 import Z906Signal = require('../../lib/Z906Signal');
 
 const { RFDriver } = require('homey-rfdriver');
@@ -8,9 +9,9 @@ class Z906Driver extends RFDriver {
 
   static SIGNAL = Z906Signal;
 
-  async sendCommand({ commandId }: { commandId: string }) {
-    const signal = await this.getRFSignal();
-    await signal.cmd(commandId);
+  async sendCommand({ commandId, device }: { commandId: string, device: Homey.Device }) {
+    // Pass the device so Homey routes the IR command via the right transmitter (satelliteMode)
+    await this.cmd(commandId, { device });
   }
 
   async onRFInit() {
@@ -26,8 +27,8 @@ class Z906Driver extends RFDriver {
     return async ({
       device,
       cmd,
-    }: { device: Z906Driver, cmd: { cmd: string } }) => {
-      return this.sendCommand({ commandId: cmd.cmd });
+    }: { device: Homey.Device, cmd: { cmd: string } }) => {
+      return this.sendCommand({ commandId: cmd.cmd, device });
     };
   }
 
