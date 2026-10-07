@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--homey-su-2);
+    }
+
+    .grid + .grid {
+      margin-top: var(--homey-su-2);
+    }
+
+    .grid.inputs {
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    .span-2 {
+      grid-column: span 2;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--homey-su-1);
+      height: 48px;
+      padding: 0;
+      border: 0;
+      border-radius: var(--homey-border-radius-default);
+      background: var(--homey-color-mono-050);
+      color: var(--homey-text-color);
+      font-size: var(--homey-font-size-small);
+      font-weight: var(--homey-font-weight-medium);
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 80ms ease, background-color 120ms ease;
+    }
+
+    .grid.inputs button {
+      height: 36px;
+    }
+
+    button:active {
+      transform: scale(0.94);
+      background: var(--homey-color-mono-100);
+    }
+
+    button.power {
+      color: var(--homey-text-color-danger);
+    }
+
+    button.sent {
+      background: var(--homey-color-blue);
+      color: var(--homey-text-color-white);
+    }
+
+    button.failed {
+      background: var(--homey-text-color-danger);
+      color: var(--homey-text-color-white);
+    }
+
+    button:disabled {
+      opacity: 0.4;
+      cursor: default;
+    }
+
+    svg {
+      width: var(--homey-icon-size-medium);
+      height: var(--homey-icon-size-medium);
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .message {
+      margin-top: var(--homey-su-2);
+      text-align: center;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body class="homey-widget-small">
+  <div class="grid">
+    <button class="power" data-command="onoff" data-title="power">
+      <svg viewBox="0 0 24 24"><path d="M12 3v9"/><path d="M6.3 6.3a8 8 0 1 0 11.4 0"/></svg>
+    </button>
+    <button data-command="volume_mute" data-title="mute">
+      <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="m16 9 5 6M21 9l-5 6"/></svg>
+    </button>
+    <button data-command="input" data-title="input">
+      <svg viewBox="0 0 24 24"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg>
+    </button>
+    <button data-command="effect" data-title="effect">
+      <svg viewBox="0 0 24 24"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M2 14h4M10 8h4M18 16h4"/></svg>
+    </button>
+    <button class="span-2" data-command="volume_down" data-title="volume_down">
+      <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M16 12h5"/></svg>
+    </button>
+    <button class="span-2" data-command="volume_up" data-title="volume_up">
+      <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M16 12h5M18.5 9.5v5"/></svg>
+    </button>
+  </div>
+
+  <div class="grid inputs hidden" id="inputs">
+    <button data-command="input_1" data-title="input_1">1</button>
+    <button data-command="input_2" data-title="input_2">2</button>
+    <button data-command="input_3" data-title="input_3">3</button>
+    <button data-command="input_4" data-title="input_4">4</button>
+    <button data-command="input_5" data-title="input_5">5</button>
+    <button data-command="input_aux" data-title="input_aux">AUX</button>
+  </div>
+
+  <p class="message homey-text-small-light hidden" id="message"></p>
+
+  <script>
+    function onHomeyReady(Homey) {
+      const settings = Homey.getSettings();
+      const deviceId = settings.device && settings.device.id;
+      const message = document.getElementById('message');
+      const buttons = document.querySelectorAll('button[data-command]');
+
+      if (settings.show_inputs !== false) {
+        document.getElementById('inputs').classList.remove('hidden');
+      }
+
+      buttons.forEach((button) => {
+        const title = Homey.__(`widget.buttons.${button.dataset.title}`);
+        button.setAttribute('aria-label', title);
+        button.title = title;
+      });
+
+      if (!deviceId) {
+        buttons.forEach((button) => { button.disabled = true; });
+        message.textContent = Homey.__('widget.select_device');
+        message.classList.remove('hidden');
+        Homey.ready({ height: document.body.scrollHeight });
+        return;
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener('click', () => {
+          Homey.hapticFeedback();
+          button.classList.remove('sent', 'failed');
+
+          Homey.api('POST', '/command', { deviceId, command: button.dataset.command })
+            .then(() => {
+              if (!message.classList.contains('hidden')) {
+                message.classList.add('hidden');
+                Homey.setHeight(document.body.scrollHeight);
+              }
+              flash(button, 'sent');
+            })
+            .catch((err) => {
+              message.textContent = err.message || String(err);
+              message.classList.remove('hidden');
+              Homey.setHeight(document.body.scrollHeight);
+              flash(button, 'failed');
+            });
+        });
+      });
+
+      Homey.ready({ height: document.body.scrollHeight });
+    }
+
+    function flash(button, className) {
+      button.classList.add(className);
+      setTimeout(() => button.classList.remove(className), 400);
+    }
+  </script>
+</body>
+</html>

@@ -12,5 +12,23 @@
     "input_4": "Optisk inngang 4",
     "input_5": "Koaksial inngang 5",
     "input_aux": "Aux inngang"
+  },
+  "widget": {
+    "select_device": "Åpne instillingene for widgeten og velg ditt Logitech Z906.",
+    "device_not_found": "Det valgte Logitech Z906 finnes ikke lenger. Velg det igjen i instillingene for widgeten.",
+    "buttons": {
+      "power": "På/Av",
+      "mute": "Slå av lyd",
+      "input": "Endre inngang",
+      "effect": "Endre effekt",
+      "volume_down": "Senk volumet",
+      "volume_up": "Øk volumet",
+      "input_1": "Datamaskin inngang 1",
+      "input_2": "Stereo inngang 2",
+      "input_3": "Optisk inngang 3",
+      "input_4": "Optisk inngang 4",
+      "input_5": "Koaksial inngang 5",
+      "input_aux": "Aux inngang"
+    }
   }
 }

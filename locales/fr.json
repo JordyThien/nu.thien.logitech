@@ -12,5 +12,23 @@
     "input_4": "Entrée optique 4",
     "input_5": "Entrée coaxiale 5",
     "input_aux": "Entrée aux"
+  },
+  "widget": {
+    "select_device": "Ouvrez les paramètres du widget et sélectionnez votre Logitech Z906.",
+    "device_not_found": "Le Logitech Z906 sélectionné n'existe plus. Sélectionnez-le à nouveau dans les paramètres du widget.",
+    "buttons": {
+      "power": "Allumer/Éteindre",
+      "mute": "Couper le son",
+      "input": "Changer l'entrée",
+      "effect": "Changer l'effet",
+      "volume_down": "Baisser le volume",
+      "volume_up": "Augmenter le volume",
+      "input_1": "Entrée ordinateur 1",
+      "input_2": "Entrée stéréo 2",
+      "input_3": "Entrée optique 3",
+      "input_4": "Entrée optique 4",
+      "input_5": "Entrée coaxiale 5",
+      "input_aux": "Entrée aux"
+    }
   }
 }

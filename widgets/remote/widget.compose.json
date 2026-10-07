@@ -1,0 +1,58 @@
+{
+  "name": {
+    "en": "Z906 Remote",
+    "nl": "Z906 Afstandsbediening",
+    "de": "Z906 Fernbedienung",
+    "fr": "Télécommande Z906",
+    "it": "Telecomando Z906",
+    "sv": "Z906 Fjärrkonroll",
+    "no": "Z906 Fjernkontroll",
+    "es": "Control remoto Z906",
+    "da": "Z906 Fjernbetjening",
+    "ru": "Пульт Z906",
+    "pl": "Pilot Z906"
+  },
+  "settings": [
+    {
+      "id": "device",
+      "type": "autocomplete",
+      "title": {
+        "en": "Speaker system",
+        "nl": "Luidsprekersysteem",
+        "de": "Lautsprechersystem",
+        "fr": "Système de haut-parleurs",
+        "it": "Sistema di altoparlanti",
+        "sv": "Högtalarsystem",
+        "no": "Høyttaleransystem",
+        "es": "Sistema de altavoces",
+        "da": "Højttalersystem",
+        "ru": "Система динамиков",
+        "pl": "System głośników"
+      }
+    },
+    {
+      "id": "show_inputs",
+      "type": "checkbox",
+      "value": true,
+      "title": {
+        "en": "Show input buttons",
+        "nl": "Invoerknoppen tonen",
+        "de": "Eingabeschaltflächen anzeigen",
+        "fr": "Afficher les boutons d'entrée",
+        "it": "Mostra pulsanti di ingresso",
+        "sv": "Visa ingångsknapparna",
+        "no": "Vis inngangsknappar",
+        "es": "Mostrar botones de entrada",
+        "da": "Vis indgangsknapper",
+        "ru": "Показать кнопки входов",
+        "pl": "Pokaż przyciski wejść"
+      }
+    }
+  ],
+  "api": {
+    "sendCommand": {
+      "method": "POST",
+      "path": "/command"
+    }
+  }
+}

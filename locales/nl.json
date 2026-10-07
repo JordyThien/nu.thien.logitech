@@ -12,5 +12,23 @@
     "input_4": "Optische invoer 4",
     "input_5": "Coaxiale invoer 5",
     "input_aux": "Aux-invoer"
+  },
+  "widget": {
+    "select_device": "Open de widget-instellingen en selecteer je Logitech Z906.",
+    "device_not_found": "De geselecteerde Logitech Z906 bestaat niet meer. Selecteer deze opnieuw in de widget-instellingen.",
+    "buttons": {
+      "power": "Aan/uit",
+      "mute": "Dempen",
+      "input": "Invoer wijzigen",
+      "effect": "Effect wijzigen",
+      "volume_down": "Volume omlaag",
+      "volume_up": "Volume omhoog",
+      "input_1": "Computerinvoer 1",
+      "input_2": "Stereo-invoer 2",
+      "input_3": "Optische invoer 3",
+      "input_4": "Optische invoer 4",
+      "input_5": "Coaxiale invoer 5",
+      "input_aux": "Aux-invoer"
+    }
   }
 }
