@@ -13,5 +13,8 @@
   },
   "1.2.0": {
     "en": "New dashboard widget to control your Z906. The Send command flow now uses the IR transmitter of the selected device. Requires Homey v12.9.0 or newer."
+  },
+  "1.2.1": {
+    "en": "New dashboard widget to control your Z906. The Send command flow now uses the IR transmitter of the selected device. Requires Homey v12.9.0 or newer."
   }
 }
